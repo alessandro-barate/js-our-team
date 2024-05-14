@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
 .col {
   width: 80%;
   display: flex;
@@ -14,13 +18,28 @@
   gap: 10px;
 }
 
-.col-60 {
-  width: 60%;
+.col-40 {
+  width: 40%;
   margin: 0 auto;
   text-align: center;
+  padding-top: 50px;
 }
 
 .col-33 {
   width: calc(100% / 3 - 20px);
   background-color: red;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+p {
+  margin-bottom: 40px;
+  line-height: 25px;
+}
+
+.padding-top-bottom {
+  padding: 0 10px 0 10px;
 }

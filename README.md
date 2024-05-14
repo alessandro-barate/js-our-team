@@ -24,7 +24,17 @@ Buon lavoro!
 :saluto_vulcaniano:
 
 STEP 0
-Definisco un array, inserisco gli oggetti con le proprietà volute.
+
+- Definisco un array, inserisco gli oggetti con le proprietà volute.
 
 STEP 1
-Console.log sull'array oppure console.log sui vari indici dell'array oppure ciclo for che cicla sugli elementi dell'array e console.log dell'array[i].
+
+- Console.log sull'array oppure console.log sui vari indici dell'array oppure ciclo for che cicla sugli elementi dell'array e console.log dell'array[i].
+
+STEP 2
+
+- Creo un ciclo for che itera sui vari elementi dell'array
+- Assegno una variabile che è l'indice dell'array
+- Grazie al ciclo creo gli elementi che mi servono (div, h3 e span)
+- Creo e assegno la classe col-33 ai div
+- Appendo h3 e span ai div, e i div al div contenitore

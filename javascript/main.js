@@ -4,32 +4,32 @@ const team = [
   {
     name: "Wayne Barnett",
     role: "Founder & CEO",
-    image: "wayne-barnett-founder-ceo.jpg",
+    image: "./img/wayne-barnett-founder-ceo.jpg",
   },
   {
     name: "Angela Caroll",
     role: "Chief Editor",
-    image: "angela-caroll-chief-editor.jpg",
+    image: "./img/angela-caroll-chief-editor.jpg",
   },
   {
     name: "Walter Gordon",
     role: "Office Manager",
-    image: "walter-gordon-office-manager.jpg",
+    image: "./img/walter-gordon-office-manager.jpg",
   },
   {
     name: "Angela Lopez",
     role: "Social Media Manager",
-    image: "angela-lopez-social-media-manager.jpg",
+    image: "./img/angela-lopez-social-media-manager.jpg",
   },
   {
     name: "Scott Estrada",
     role: "Developer",
-    image: "scott-estrada-developer.jpg",
+    image: "./img/scott-estrada-developer.jpg",
   },
   {
     name: "Barbara Ramos",
     role: "Grapgic Designer",
-    image: "barbara-ramos-graphic-designer.jpg",
+    image: "./img/barbara-ramos-graphic-designer.jpg",
   },
 ];
 
@@ -50,6 +50,12 @@ for (let i = 0; i < team.length; i++) {
   // Creo gli elementi div col33 e gli aggiungo la classe col-33
   const col33 = document.createElement("col-33");
   col33.classList.add("col-33");
+
+  // Creo gli elementi img, la sorgente dei file e gli appendo la chiave image dei vari oggetti,
+  //li appendo a loro volta alla col33
+  const img = document.createElement("img");
+  img.src = teamMember.image;
+  col33.append(img.src);
 
   // Creo gli elementi h3 e gli appendo la chiave name dei vari oggetti, li appendo a loro volta alla col33
   const h3 = document.createElement("h3");
