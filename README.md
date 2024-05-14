@@ -38,3 +38,14 @@ STEP 2
 - Grazie al ciclo creo gli elementi che mi servono (div, h3 e span)
 - Creo e assegno la classe col-33 ai div
 - Appendo h3 e span ai div, e i div al div contenitore
+
+STEP B1
+
+- Nel ciclo for creo l'elemento img
+- Gli assegno la sorgente da dove prendere l'immagine
+- Gli assegno le classi che mi servono per agire poi nel css
+- Lo appendo alla col33
+
+STEPB2
+
+- Dopo aver creato la struttura in HTML appendo i vari elementi creati al contenitore delle card

@@ -1,5 +1,6 @@
 "use strict";
 
+// Array con oggetti
 const team = [
   {
     name: "Wayne Barnett",
@@ -33,6 +34,7 @@ const team = [
   },
 ];
 
+// Console log di controllo
 console.log(team);
 console.log(team[0]);
 console.log(team[1]);
@@ -55,10 +57,12 @@ for (let i = 0; i < team.length; i++) {
   //li appendo a loro volta alla col33
   const img = document.createElement("img");
   img.src = teamMember.image;
-  col33.append(img.src);
+  img.classList.add("img-width");
+  col33.append(img);
 
   // Creo gli elementi h3 e gli appendo la chiave name dei vari oggetti, li appendo a loro volta alla col33
   const h3 = document.createElement("h3");
+  h3.classList.add("margin-tp");
   h3.append(teamMember.name);
   col33.append(h3);
 
