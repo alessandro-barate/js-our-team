@@ -27,4 +27,4 @@ STEP 0
 Definisco un array, inserisco gli oggetti con le proprietà volute.
 
 STEP 1
-Console.log sull'array oppure console.log sui vari indici dell'array
+Console.log sull'array oppure console.log sui vari indici dell'array oppure ciclo for che cicla sugli elementi dell'array e console.log dell'array[i].
