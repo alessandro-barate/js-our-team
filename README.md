@@ -23,5 +23,8 @@ E ricordiamoci che console.log() è nostro amico!
 Buon lavoro!
 :saluto_vulcaniano:
 
+STEP 0
+Definisco un array, inserisco gli oggetti con le proprietà volute.
+
 STEP 1
-Definisco un array, inserisco gli oggetti con le proprietà volute
+Console.log sull'array oppure console.log sui vari indici dell'array

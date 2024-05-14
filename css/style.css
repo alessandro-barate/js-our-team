@@ -3,3 +3,24 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.col {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.col-60 {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.col-33 {
+  width: calc(100% / 3 - 20px);
+  background-color: red;
+}

@@ -40,3 +40,5 @@ console.log(members[2]);
 console.log(members[3]);
 console.log(members[4]);
 console.log(members[5]);
+
+for (let i = 0; i < members.length; i++) {}
