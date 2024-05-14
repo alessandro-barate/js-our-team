@@ -74,3 +74,12 @@ for (let i = 0; i < team.length; i++) {
   // Appendo al div col i vari div col33
   col.append(col33);
 }
+
+/*function elementsCreation(element, reference, target) {
+  const element = document.createElement("element");
+  element.append(reference);
+  target.append(element);
+  return;
+}
+
+elementsCreation(span, teamMember.role, col33); */
