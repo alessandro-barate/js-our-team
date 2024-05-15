@@ -35,19 +35,23 @@ const team = [
 ];
 
 // Console log di controllo
-console.log(team);
+/*console.log(team);
 console.log(team[0]);
 console.log(team[1]);
 console.log(team[2]);
 console.log(team[3]);
 console.log(team[4]);
-console.log(team[5]);
+console.log(team[5]); */
 
 const col = document.querySelector(".col");
 
 // Itero su ogni elemento dell'array
 for (let i = 0; i < team.length; i++) {
   const teamMember = team[i];
+  for (let key in teamMember) {
+    console.log(`${key}: ${teamMember[key]}`);
+  }
+  console.log("------");
 
   // Creo gli elementi div col33 e gli aggiungo la classe col-33
   const col33 = document.createElement("col-33");
@@ -62,13 +66,13 @@ for (let i = 0; i < team.length; i++) {
 
   // Creo gli elementi h3 e gli appendo la chiave name dei vari oggetti, li appendo a loro volta alla col33
   const h3 = document.createElement("h3");
+  h3.innerText = teamMember.name;
   h3.classList.add("margin-tp");
-  h3.append(teamMember.name);
   col33.append(h3);
 
   // Creo gli elementi span e gli appendo la chiave role dei vari oggetti, li appendo a loro volta alla col33
   const span = document.createElement("span");
-  span.append(teamMember.role);
+  span.innerText = teamMember.role;
   col33.append(span);
 
   // Appendo al div col i vari div col33
