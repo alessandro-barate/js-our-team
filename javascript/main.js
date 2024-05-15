@@ -1,6 +1,6 @@
 "use strict";
 
-// Array con oggetti
+// Array di oggetti
 const team = [
   {
     name: "Wayne Barnett",
@@ -33,15 +33,6 @@ const team = [
     image: "barbara-ramos-graphic-designer.jpg",
   },
 ];
-
-// Console log di controllo
-/*console.log(team);
-console.log(team[0]);
-console.log(team[1]);
-console.log(team[2]);
-console.log(team[3]);
-console.log(team[4]);
-console.log(team[5]); */
 
 const col = document.querySelector(".col");
 
