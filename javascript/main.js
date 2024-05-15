@@ -61,7 +61,7 @@ for (let i = 0; i < team.length; i++) {
   //li appendo a loro volta alla col33
   const img = document.createElement("img");
   img.src = "./img/" + teamMember.image;
-  img.alt = "Team member in a close-up shot";
+  img.alt = teamMember.name + " in a close-up shot";
   img.classList.add("img-width");
   col33.append(img);
 
